@@ -1,0 +1,53 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  background-color: #c1ffd7;
+  height: max-content;
+  min-height: 100vh;
+  width: max-content;
+  min-width: 100%;
+}
+
+.grid {
+  background-color: white;
+  margin: 2rem;
+  margin-top: 3rem;
+  width: fit-content;
+  align-self: center;
+  line-height: 0%;
+  outline: 0.2vw solid #83a2db;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.header {
+  background-color: #cab8ff;
+  top: 0;
+  left: 0;
+  margin-top: 0;
+  line-height: 2rem;
+  color: azure;
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+    2px 2px 0 black;
+}
+
+.InfoBox {
+  background-color: #b5deff;
+  padding: 1rem;
+}
+
+.InfoBox button {
+  font-size: 1.75rem;
+  margin: 0 1rem;
+}
+
+.blocked {
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  opacity: 0.3;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+}

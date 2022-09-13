@@ -1,0 +1,79 @@
+.node {
+  width: 2.5vw;
+  height: 2.5vw;
+
+  outline: 0.5px solid #d9d7f1;
+  display: inline-table;
+}
+.node-start {
+  background-color: plum;
+  background-image: url("../../Images/puppy.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.node-weighted {
+  background-image: url("../../Images/bone3.png");
+  background-size: 2.5vw;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.node-end {
+  background-color: rgb(66, 201, 66);
+  background-image: url("../../Images/house.png");
+  background-size: 2.5vw;
+  background-position: center;
+}
+
+.node-visited {
+  animation-name: visitedAnimation;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  /* background-color: #edd2f3;
+  /* #f29191;
+    /*#cab8ff;
+  
+    /*#b2a4ff;
+    /*rgb(178, 133, 220);*/
+}
+
+@keyframes visitedAnimation {
+  0% {
+    transform: scale(0.3);
+    background-color: #ff5677;
+    border-radius: 100%;
+  }
+
+  50% {
+    background-color: #ff8c8c;
+  }
+
+  75% {
+    transform: scale(1.2);
+    background-color: #ffc3c3;
+  }
+
+  100% {
+    transform: scale(1);
+    background-color: #ffc947;
+  }
+}
+
+.node-final {
+  background-color: #ff5d5d;
+  /*#fcffa6;*/
+}
+
+.node-wall {
+  /*background-image: url("../../Images/wall1.png");
+  background-size: cover;
+  background-position: center;*/
+
+  background-color: #554994;
+}

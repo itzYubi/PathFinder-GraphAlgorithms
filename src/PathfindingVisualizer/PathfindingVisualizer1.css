@@ -1,0 +1,53 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://thumbs.dreamstime.com/b/beautiful-abstract-nature-sunset-sky-as-background-pastel-soft-colorful-smooth-blurred-textured-off-focus-toned-backdrop-163773938.jpg");
+  background-position: center;
+  background-size: cover;
+  height: max-content;
+  min-height: 100vh;
+  width: max-content;
+  min-width: 100%;
+}
+
+.grid {
+  background-color: white;
+  margin: 2rem;
+  margin-top: 3rem;
+  width: fit-content;
+  align-self: center;
+  line-height: 0%;
+  outline: 0.5vw solid #554994;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.header {
+  top: 0;
+  left: 0;
+  margin-top: 0;
+  line-height: 2rem;
+  color: azure;
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+    2px 2px 0 black;
+}
+
+.InfoBox {
+  padding: 1rem;
+}
+
+.InfoBox button {
+  font-size: 1.75rem;
+  margin: 0 1rem;
+}
+
+.blocked {
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  opacity: 0.3;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+}
